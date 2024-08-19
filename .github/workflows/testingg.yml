@@ -1,5 +1,6 @@
 github-token: ${{ secrets.GITHUB_TOKEN }}
 name: trying to write a yaml file
+on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
