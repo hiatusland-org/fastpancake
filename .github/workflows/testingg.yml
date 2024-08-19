@@ -1,4 +1,10 @@
----
-# hmm does this work?
+github-token: ${{ secrets.GITHUB_TOKEN }}
+name: trying to write a yaml file
 foo: True
-bar: False
+bar:
+  - why
+  - don't
+  - you
+  - like
+  - this
+  - code
