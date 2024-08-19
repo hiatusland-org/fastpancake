@@ -1,10 +1,7 @@
 github-token: ${{ secrets.GITHUB_TOKEN }}
 name: trying to write a yaml file
-foo: True
-bar:
-  - why
-  - don't
-  - you
-  - like
-  - this
-  - code
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "wow, this actually worked."
