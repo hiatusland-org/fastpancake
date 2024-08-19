@@ -1,0 +1,9 @@
+#This is a file testing some stuff!
+public class Test {
+  public static void main(String[] args) {
+    String name = "hellooooo";
+    int yearCreated = 2024;
+    System.out.println(name);
+    System.out.println(yearCreated);
+  }
+}
