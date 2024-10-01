@@ -5,3 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "wow, this actually worked."
+      - run: echo "this is a deployment"
